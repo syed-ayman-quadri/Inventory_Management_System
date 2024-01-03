@@ -1,8 +1,8 @@
-import './App.css';
 import SearchBar from "./SearchBar.js";
 import AddItem from "./AddItem.js";
 import ItemsDisplay from "./ItemsDisplay";
 import {useState} from "react";
+
 
 function App() {
   const [filters, setFilters] = useState({})
@@ -20,10 +20,16 @@ function App() {
   };
  
   return (
-    <div className="App">
-      <SearchBar updateSearchParams={updateFilters} />
+    <div className="container">
+      <div className="row mt-3">
       <ItemsDisplay item={data["items"]} />
+      </div>
+      <div className="row mt-3">
+      <SearchBar updateSearchParams={updateFilters} />
+      </div>
+      <div className="row mt-3">
       <AddItem addItem={addItemToData} />
+      </div>
     </div>
   )
 }
