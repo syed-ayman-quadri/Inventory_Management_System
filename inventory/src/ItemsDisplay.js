@@ -17,7 +17,7 @@ function ItemsDisplay(props) {
                 <h2>Items</h2>
             </div>
             <div className='row'>
-                <table class='table table-striped'>
+                <table className='table table-striped'>
                     <thead>
                         <tr>
                             <th scope='col'>Id</th>

@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "name": "Chicken Tikka Pizza",
+      "price": "6.99",
+      "type": "Frozen Food",
+      "brand": "Tandoori Oven",
+      "id": 1
+    },
+    {
+      "name": "Tandoori Masala Pizza",
+      "price": "6.99",
+      "type": "Frozen Food",
+      "brand": "Tandoori Oven",
+      "id": 2
+    },
+    {
+      "name": "Halal Chicken Legs",
+      "price": "19",
+      "type": "Poultry",
+      "brand": "Sufra",
+      "id": 3
+    },
+    {
+      "name": "English Fish and Chips",
+      "price": "9.99",
+      "type": "Frozen Food",
+      "brand": "HighLiner",
+      "id": 4
+    },
+    {
+      "name": "Tomato",
+      "price": "-2",
+      "type": "",
+      "brand": "",
+      "id": 5
+    }
+  ]
+}
